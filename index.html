@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f1923">
+  <meta name="description" content="Build & Conquer - A military strategy MMO. Build your base, train your army, and dominate the battlefield.">
+  <title>Build & Conquer - Military Strategy MMO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <div class="nav-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Build &amp; Conquer
+      </div>
+      <a href="/register" class="btn btn-cta">Play Now</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-radar"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Military Strategy MMO
+      </div>
+      <h1 class="hero-title">Build &amp; <span>Conquer</span></h1>
+      <p class="hero-tagline">Build your base. Train your army. Dominate the battlefield.</p>
+      <div class="hero-cta-group">
+        <a href="/register" class="btn btn-cta btn-cta-large">Start Playing</a>
+      </div>
+      <p class="hero-meta" style="margin-top: 1.25rem;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Free to play &mdash; no download required
+      </p>
+    </div>
+    <div class="scroll-indicator">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="highlights section-alt">
+    <div class="container">
+      <div class="highlights-grid">
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12l2-6 2 6M9 10h2"/><path d="M14 12l2-6 2 6M15 10h2"/></svg>
+          </div>
+          <div class="highlight-number" style="color: var(--gold);">11</div>
+          <div class="highlight-label">Resource Types</div>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--danger)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </div>
+          <div class="highlight-number" style="color: var(--danger);">4</div>
+          <div class="highlight-label">Military Branches</div>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          </div>
+          <div class="highlight-number" style="color: var(--accent);">Real-Time</div>
+          <div class="highlight-label">PvP Combat</div>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="highlight-number" style="color: var(--info);">Alliance</div>
+          <div class="highlight-label">Warfare</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+  <!-- Base Building -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Foundation</div>
+        <h2 class="section-title">Strategic Base Building</h2>
+        <p class="section-subtitle">Four building categories. Upgrades, batch construction, and building modes. Every decision shapes your empire.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card card-production reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-production">Production</span>
+              <div class="card-title">Resource Generation</div>
+            </div>
+          </div>
+          <div class="card-text">Farms, Oil Rigs, Refineries, and Nuclear Labs fuel your economy with configurable production modes.</div>
+        </div>
+        <div class="card card-military reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-military">Military</span>
+              <div class="card-title">Training Facilities</div>
+            </div>
+          </div>
+          <div class="card-text">Barracks, Armories, Airports, and Harbors to train infantry, vehicles, aircraft, and naval units.</div>
+        </div>
+        <div class="card card-defense reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-defense">Defense</span>
+              <div class="card-title">Fortifications</div>
+            </div>
+          </div>
+          <div class="card-text">Turrets, walls, and anti-air systems protect your base from enemy raids and aerial assaults.</div>
+        </div>
+        <div class="card card-support reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-support">Support</span>
+              <div class="card-title">Infrastructure</div>
+            </div>
+          </div>
+          <div class="card-text">Banks protect your gold, Universities unlock research, and Power Plants keep everything running.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Economy</div>
+        <h2 class="section-title">11 Resource Types</h2>
+        <p class="section-subtitle">Real-time production. Every resource matters. Manage your economy or watch it collapse.</p>
+      </div>
+      <div class="resource-grid">
+        <div class="resource-card reveal">
+          <div class="resource-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v12"/><path d="M15 9.5c0-1.38-1.34-2.5-3-2.5s-3 1.12-3 2.5S10.34 12 12 12s3 1.12 3 2.5-1.34 2.5-3 2.5"/></svg>
+          </div>
+          <div class="resource-name" style="color: var(--gold);">Gold</div>
+          <div class="resource-desc">Base currency</div>
+        </div>
+        <div class="resource-card reveal">
+          <div class="resource-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
+          <div class="resource-name">Oil</div>
+          <div class="resource-desc">Fuel &amp; energy</div>
+        </div>
+        <div class="resource-card reveal">
+          <div class="resource-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 2v10l6.9-4"/><path d="M12 12l4 8"/></svg>
+          </div>
+          <div class="resource-name" style="color: var(--accent);">Food</div>
+          <div class="resource-desc">Army upkeep</div>
+        </div>
+        <div class="resource-card reveal">
+          <div class="resource-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <div class="resource-name" style="color: var(--info);">Electricity</div>
+          <div class="resource-desc">Power grid</div>
+        </div>
+      </div>
+      <div class="advanced-resources reveal">
+        <div class="advanced-label">Advanced Resources</div>
+        <span class="pill">Diesel</span>
+        <span class="pill">SP95</span>
+        <span class="pill">SP98</span>
+        <span class="pill">Berium</span>
+        <span class="pill">Plutonium</span>
+        <span class="pill">Uranium</span>
+        <span class="pill">Titanium</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Military & Combat -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Warfare</div>
+        <h2 class="section-title">Command Your Forces</h2>
+        <p class="section-subtitle">Train diverse units across four branches and lead them into battle.</p>
+      </div>
+      <div class="split">
+        <div class="panel reveal">
+          <div class="panel-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--text-bright)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            Military Branches
+          </div>
+          <ul class="unit-list">
+            <li>
+              <div class="unit-icon infantry">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div><span class="unit-name">Infantry</span><br><span class="unit-desc">Ground troops, the backbone of your army</span></div>
+            </li>
+            <li>
+              <div class="unit-icon vehicle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </div>
+              <div><span class="unit-name">Ground Vehicles</span><br><span class="unit-desc">Tanks and APCs for heavy assault</span></div>
+            </li>
+            <li>
+              <div class="unit-icon aircraft">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+              </div>
+              <div><span class="unit-name">Aircraft</span><br><span class="unit-desc">Air superiority and bombing runs</span></div>
+            </li>
+            <li>
+              <div class="unit-icon naval">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2-2V8l4-4 4 4v10a2 2 0 0 0 2 2"/><path d="M6 12h4"/><path d="M14 20a2 2 0 0 0 2-2V8l4-4v16a2 2 0 0 0 2 2"/></svg>
+              </div>
+              <div><span class="unit-name">Naval</span><br><span class="unit-desc">Control the seas with warships</span></div>
+            </li>
+          </ul>
+          <div class="composition-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            Composition bonuses reward strategic army diversity.
+          </div>
+        </div>
+        <div class="panel reveal" style="border-top: 2px solid rgba(239, 68, 68, 0.3);">
+          <div class="panel-title" style="color: var(--danger);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>
+            PvP Combat
+          </div>
+          <ul class="combat-list">
+            <li>Attack other players and steal their resources</li>
+            <li>Track victories and battle history</li>
+            <li>Leaderboards for offensive &amp; defensive power</li>
+            <li>New player protection while you grow</li>
+            <li>Real-time attack notifications and countdowns</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Espionage -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Intelligence</div>
+        <h2 class="section-title">Espionage</h2>
+        <p class="section-subtitle">Knowledge is power. Deploy spies before you strike.</p>
+      </div>
+      <div class="spy-grid">
+        <div class="spy-card reveal">
+          <div class="spy-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div class="spy-card-title">Scout Enemies</div>
+          <div class="spy-card-text">Send reconnaissance missions to reveal enemy army composition and strength estimates.</div>
+        </div>
+        <div class="spy-card reveal">
+          <div class="spy-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <div class="spy-card-title">Steal Intelligence</div>
+          <div class="spy-card-text">Uncover enemy gold reserves and resource stockpiles before launching your raid.</div>
+        </div>
+        <div class="spy-card reveal">
+          <div class="spy-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+          </div>
+          <div class="spy-card-title">Covert Operations</div>
+          <div class="spy-card-text">Risk detection for greater reward. Every mission has a chance of discovery.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Technology</div>
+        <h2 class="section-title">Research &amp; Technology</h2>
+        <p class="section-subtitle">Tier-based progression with prerequisites. Each technology builds on the last.</p>
+      </div>
+      <div class="research-grid">
+        <div class="research-card reveal">
+          <div class="research-icon combat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <div class="research-name">Combat</div>
+          <div class="research-desc">Boost attack and defense capabilities</div>
+          <div class="research-tier">Tiers 1 &ndash; 4</div>
+        </div>
+        <div class="research-card reveal">
+          <div class="research-icon economy">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="research-name">Economy</div>
+          <div class="research-desc">Increase production efficiency</div>
+          <div class="research-tier">Tiers 1 &ndash; 4</div>
+        </div>
+        <div class="research-card reveal">
+          <div class="research-icon intel">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div class="research-name">Intelligence</div>
+          <div class="research-desc">Enhance espionage operations</div>
+          <div class="research-tier">Tiers 1 &ndash; 4</div>
+        </div>
+        <div class="research-card reveal">
+          <div class="research-icon infra">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"/><line x1="23" y1="13" x2="23" y2="11"/><line x1="23" y1="17" x2="23" y2="15"/><line x1="23" y1="9" x2="23" y2="7"/></svg>
+          </div>
+          <div class="research-name">Infrastructure</div>
+          <div class="research-desc">Improve building and research speed</div>
+          <div class="research-tier">Tiers 1 &ndash; 4</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market & Alliance -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Diplomacy</div>
+        <h2 class="section-title">Trade &amp; Forge Alliances</h2>
+        <p class="section-subtitle">A living economy and cooperative gameplay.</p>
+      </div>
+      <div class="social-grid">
+        <div class="social-card market reveal">
+          <div class="social-title" style="color: var(--gold);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+            Player-Driven Market
+          </div>
+          <ul class="feature-list">
+            <li>Buy &amp; sell resources with other players</li>
+            <li>NPC trading for guaranteed transactions</li>
+            <li>Price history charts and market analytics</li>
+            <li>Track your active orders and trade history</li>
+          </ul>
+        </div>
+        <div class="social-card alliance reveal">
+          <div class="social-title" style="color: var(--info);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Alliance System
+          </div>
+          <ul class="feature-list">
+            <li>Form alliances with other commanders</li>
+            <li>Shared resource pool and donations</li>
+            <li>Democratic resource requests with voting</li>
+            <li>Real-time alliance chat and rankings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progression -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Progression</div>
+        <h2 class="section-title">Progress &amp; Compete</h2>
+        <p class="section-subtitle">Long-term goals, daily challenges, and premium rewards.</p>
+      </div>
+      <div class="progression-grid">
+        <div class="progression-card reveal">
+          <div class="progression-icon achievements">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          </div>
+          <div>
+            <div class="progression-title">Achievements &amp; Quests</div>
+            <div class="progression-text">6 achievement categories, daily challenges, and event quests with gold, resources, and CP rewards.</div>
+          </div>
+        </div>
+        <div class="progression-card reveal">
+          <div class="progression-icon rank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <div>
+            <div class="progression-title">Rank Progression</div>
+            <div class="progression-text">Climb the grade system and compete on leaderboards for victories, offensive power, and defense.</div>
+          </div>
+        </div>
+        <div class="progression-card reveal">
+          <div class="progression-icon pass">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div>
+            <div class="progression-title">Commander's Pass</div>
+            <div class="progression-text">+15% production bonus, combat analytics, bonus market slots, and an ad-free experience.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Final CTA -->
+  <section class="cta-final">
+    <div class="container">
+      <div class="hud-bracket" style="display: inline-block; padding: 2rem 3rem;">
+        <h2 class="cta-title reveal">Ready to Command?</h2>
+        <p class="cta-subtitle reveal">Your empire awaits.</p>
+        <a href="/register" class="btn btn-cta btn-cta-large reveal">Play Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <p>&copy; 2026 Build &amp; Conquer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky nav on scroll
+    const nav = document.getElementById('nav');
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Scroll reveal with IntersectionObserver
+    const revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            entry.target.style.transitionDelay = `${(i % 4) * 80}ms`;
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      revealEls.forEach(el => observer.observe(el));
+    } else {
+      revealEls.forEach(el => el.classList.add('visible'));
+    }
+  </script>
+
+</body>
+</html>
