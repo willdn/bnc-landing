@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0f1923">
-  <meta name="description" content="Build & Conquer - A military strategy MMO. Build your base, train your army, and dominate the battlefield.">
+  <meta name="description" content="Build & Conquer - A free military strategy MMO for iOS and Android. Build your base, train your army, raid resource camps, and dominate the battlefield.">
   <title>Build & Conquer - Military Strategy MMO</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         Build &amp; Conquer
       </div>
-      <a href="/register" class="btn btn-cta">Play Now</a>
+      <a href="#download" class="btn btn-cta">Download</a>
     </div>
   </nav>
 
@@ -36,11 +36,16 @@
       <h1 class="hero-title">Build &amp; <span>Conquer</span></h1>
       <p class="hero-tagline">Build your base. Train your army. Dominate the battlefield.</p>
       <div class="hero-cta-group">
-        <a href="/register" class="btn btn-cta btn-cta-large">Start Playing</a>
+        <a href="#" class="store-badge" aria-label="Download on the App Store">
+          <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83" alt="Download on the App Store" height="54">
+        </a>
+        <a href="#" class="store-badge" aria-label="Get it on Google Play">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="54">
+        </a>
       </div>
       <p class="hero-meta" style="margin-top: 1.25rem;">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        Free to play &mdash; no download required
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 18h.01"/><path d="M7 21h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2z"/></svg>
+        Free to play &mdash; available on iOS &amp; Android
       </p>
     </div>
     <div class="scroll-indicator">
@@ -254,14 +259,52 @@
             <li>Leaderboards for offensive &amp; defensive power</li>
             <li>New player protection while you grow</li>
             <li>Real-time attack notifications and countdowns</li>
+            <li>AI training camps to practice combat strategies</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Espionage -->
+  <!-- Resource Camps -->
   <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">PvE</div>
+        <h2 class="section-title">Resource Camps</h2>
+        <p class="section-subtitle">Compete with other players to raid NPC camps on a tactical map. The first commander to strike claims all the loot.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card card-production reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-production">Tactical Map</span>
+              <div class="card-title">Raid &amp; Loot</div>
+            </div>
+          </div>
+          <div class="card-text">Explore the sector map and identify NPC camps across multiple difficulty tiers. Strike first to claim the resources before anyone else.</div>
+        </div>
+        <div class="card card-military reveal">
+          <div class="card-header">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <span class="category-badge badge-military">Timed</span>
+              <div class="card-title">Respawn Cycle</div>
+            </div>
+          </div>
+          <div class="card-text">Camps respawn on a timer after being raided. Plan your attacks, coordinate with your alliance, and be ready when targets reappear.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Espionage -->
+  <section class="section">
     <div class="container">
       <div class="section-header reveal">
         <div class="section-label">Intelligence</div>
@@ -295,7 +338,7 @@
   </section>
 
   <!-- Research -->
-  <section class="section">
+  <section class="section section-alt">
     <div class="container">
       <div class="section-header reveal">
         <div class="section-label">Technology</div>
@@ -340,7 +383,7 @@
   </section>
 
   <!-- Market & Alliance -->
-  <section class="section section-alt">
+  <section class="section">
     <div class="container">
       <div class="section-header reveal">
         <div class="section-label">Diplomacy</div>
@@ -355,7 +398,6 @@
           </div>
           <ul class="feature-list">
             <li>Buy &amp; sell resources with other players</li>
-            <li>NPC trading for guaranteed transactions</li>
             <li>Price history charts and market analytics</li>
             <li>Track your active orders and trade history</li>
           </ul>
@@ -377,7 +419,7 @@
   </section>
 
   <!-- Progression -->
-  <section class="section">
+  <section class="section section-alt">
     <div class="container">
       <div class="section-header reveal">
         <div class="section-label">Progression</div>
@@ -419,12 +461,19 @@
   </main>
 
   <!-- Final CTA -->
-  <section class="cta-final">
+  <section class="cta-final" id="download">
     <div class="container">
       <div class="hud-bracket" style="display: inline-block; padding: 2rem 3rem;">
         <h2 class="cta-title reveal">Ready to Command?</h2>
-        <p class="cta-subtitle reveal">Your empire awaits.</p>
-        <a href="/register" class="btn btn-cta btn-cta-large reveal">Play Now</a>
+        <p class="cta-subtitle reveal">Your empire awaits. Download free on iOS &amp; Android.</p>
+        <div class="hero-cta-group reveal">
+          <a href="#" class="store-badge" aria-label="Download on the App Store">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83" alt="Download on the App Store" height="54">
+          </a>
+          <a href="#" class="store-badge" aria-label="Get it on Google Play">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="54">
+          </a>
+        </div>
       </div>
     </div>
   </section>

@@ -333,10 +333,35 @@ a { text-decoration: none; color: inherit; }
 .hero-meta {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.35rem;
   font-size: 0.75rem;
   color: var(--muted);
   font-weight: 500;
+}
+
+/* ---- Store badges ---- */
+.store-badge {
+  display: inline-block;
+  transition: transform 0.2s, opacity 0.2s;
+  opacity: 0.9;
+}
+
+.store-badge:hover {
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+.store-badge img {
+  height: 54px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 400px) {
+  .store-badge img {
+    height: 44px;
+  }
 }
 
 .scroll-indicator {
