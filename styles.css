@@ -358,9 +358,17 @@ a { text-decoration: none; color: inherit; }
   display: block;
 }
 
+.store-badge--google img {
+  height: 76px;
+}
+
 @media (max-width: 400px) {
   .store-badge img {
     height: 44px;
+  }
+
+  .store-badge--google img {
+    height: 62px;
   }
 }
 
